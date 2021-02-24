@@ -1,0 +1,41 @@
+#wrapper{
+    display: flex;     
+    width:100vw; 
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;   
+}
+
+@media (max-width: 767px), (max-height: 440px){
+    #wrapper {
+        min-width: 200px;
+    }
+}
+
+#quote-box  {       
+    text-align: center;
+    width: 90vw;
+    height: auto;
+    background-color: white;    
+    font-size: 2vw;
+    padding:1vw;
+}
+#text{
+    font-size: 5vw;
+}
+
+#author{
+    text-align: right;
+    font-size : 4vw;
+}
+
+#bottom_wrapper{
+display: grid;  
+grid-template-columns: 50% 50%;
+align-items: start;
+justify-content: space-between;
+}
+
+#new-quote{
+    color:white;
+}
