@@ -6,6 +6,7 @@ let colorC=Math.floor(Math.random() * Math.floor(255))
 const app = new Vue({
     el:"#wrapper",
     data:{ 
+        show:true,
         new_color:`rgb(${colorA},${colorB},${colorC})`,
         choiceNumber:Math.floor(Math.random() * Math.floor(7)),     
         quoteList:[
@@ -37,7 +38,6 @@ const app = new Vue({
             quote:"La beauté est dans les yeux de celui qui regarde.",
             author:"Oscar Wilde"},
         ]
-
 
     },
     methods:{
